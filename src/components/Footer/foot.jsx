@@ -1,5 +1,8 @@
 import React, { useState } from "react"
 import "./foot.css"
+import {GrInstagram,GrFacebook} from "react-icons/gr"
+import {AiFillTwitterSquare,AiOutlineYoutube} from "react-icons/ai"
+import { IconContext } from "react-icons";
 
 const Foot = () => {
   const [click, setClick] = useState(false)
@@ -115,10 +118,10 @@ const Foot = () => {
 
         <ul>
         <div className='social'>
-          <a href="https://twitter.com/iiitdmjbp"><i className='fab fa-twitter icon'></i></a>
-          <a href="https://www.instagram.com/iiitdm_jabalpur/"><i className='fab fa-instagram icon'></i></a>
-          <a href="https://www.facebook.com/iiitdm.jbp/"><i className='fab fa-facebook-f icon'></i></a>
-          <a href="https://www.youtube.com/channel/UCODKL--xMCqXIK31cRdOWOw"><i className='fab fa-youtube icon'></i></a>
+          <a href="https://twitter.com/iiitdmjbp"><AiFillTwitterSquare/></a>
+          <a href="https://www.instagram.com/iiitdm_jabalpur/"><GrInstagram/></a>
+          <a href="https://www.facebook.com/iiitdm.jbp/"><GrFacebook/></a>
+          <a href="https://www.youtube.com/channel/UCODKL--xMCqXIK31cRdOWOw"><AiOutlineYoutube/></a>
           </div>
         </ul>
     

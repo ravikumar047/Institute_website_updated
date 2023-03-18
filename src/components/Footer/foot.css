@@ -1,5 +1,5 @@
 .container1{
-    background-color: black;
+    background-color: #001A38;
     color: antiquewhite;
     padding: 30px;
 }
@@ -31,7 +31,8 @@ li, a{
 }
 
 .social a{
-    padding: 5px;
+    padding: 10px;
+    font-size: 15px;
     width: fit-content;
     color: antiquewhite;
 }

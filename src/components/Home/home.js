@@ -5,6 +5,7 @@ import Research from '../../research_updates/research'
 import Announce from '../Announcments/announcments'
 import Foot from '../Footer/foot'
 import News from '../newsandevents/news'
+import Cards from '../insights/cards'
 
 
 const LandingPage = () => {
@@ -12,7 +13,7 @@ const LandingPage = () => {
   const navigate = useNavigate()
   return (
     <div> 
-    <div style={{margin:"8%"}}>
+    <div>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <img src={banner_inst} alt="institute banner"/>
       </div>
@@ -35,6 +36,11 @@ const LandingPage = () => {
       <News/>
       <Announce/>
       <Research/>
+      <div classname="features" style={{ textAlign: "center", color: "#001A38", letterSpacing: "3px"}}>
+      <h2> IIITDMJ Features</h2>
+      <h4 style={{letterSpacing: "0px"}}> Take a deep insight </h4>
+        <Cards/>
+      </div>
     </div>
     <Foot/>
     </div>
