@@ -6,6 +6,7 @@ import Announce from '../Announcments/announcments'
 import Foot from '../Footer/foot'
 import News from '../newsandevents/news'
 import Cards from '../insights/cards'
+import Gallery from '../Gallery/gallery'
 
 
 const LandingPage = () => {
@@ -40,7 +41,8 @@ const LandingPage = () => {
       <h2> IIITDMJ Features</h2>
       <h4 style={{letterSpacing: "0px"}}> Take a deep insight </h4>
         <Cards/>
-      </div>
+        </div>
+       <Gallery/>
     </div>
     <Foot/>
     </div>
