@@ -1,0 +1,16 @@
+.gallery-title{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+color:white;
+font-size: 36px;
+}
+.gallery-button{
+  background: none;
+  border: 3px solid white;
+  width: 15%;
+  padding: 5px;
+  border-radius: 0.2rem;
+  color: white;
+  font-weight: 600;
+}

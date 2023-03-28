@@ -6,3 +6,8 @@
     color: "#001A38";
     size: "100px";
 }
+
+.card-body:hover{
+    color: "#000000";
+     
+}
