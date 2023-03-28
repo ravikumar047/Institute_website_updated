@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import banner_inst from '../../Assets/banner_inst.png'
 import Research from '../../research_updates/research'
 import Announce from '../Announcments/announcments'
+import Gallery from '../Gallery/gallery'
 import Foot from '../Footer/foot'
 import News from '../newsandevents/news'
 import Cards from '../insights/cards'
@@ -47,6 +48,7 @@ const LandingPage = () => {
           <h2> IIITDMJ Features</h2>
           <h4 style={{ letterSpacing: "0px" }}> Take a deep insight </h4>
           <Cards />
+          <Gallery/>
         </div>
       </div>
       <Foot />
