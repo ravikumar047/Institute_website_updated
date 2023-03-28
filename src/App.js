@@ -6,11 +6,11 @@ import About from './components/About/about';
 import { Navbar } from 'react-bootstrap';
 import NavbarHeader from './components/Navbar/navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Hero from './components/HeroSection/hero'
 function App() {
   return (
     <>
-    <NavbarHeader/>
-      <Routes>
+    <Routes>
         <Route path='/home' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/' element={<Home/>} />

@@ -6,43 +6,50 @@ import Announce from '../Announcments/announcments'
 import Foot from '../Footer/foot'
 import News from '../newsandevents/news'
 import Cards from '../insights/cards'
-
-
+import "./home.css"
+import NavbarHeader from '../Navbar/navbar';
 const LandingPage = () => {
 
   const navigate = useNavigate()
   return (
-    <div> 
     <div>
-      <div style={{ display: "flex", justifyContent: "center" }}>
-        <img src={banner_inst} alt="institute banner"/>
+      <div className='bg-img'>
+        <div className='outside'>
+        <div className='container'>
+        <NavbarHeader/>
+        </div>
+        </div>
       </div>
-      <div className='heading'>
-        About the Institute
+      <div>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          {/* <img src={banner_inst} alt="institute banner"/> */}
+        </div>
+        {/* <div className='heading'>
+          About the Institute
+        </div>
+        <div className='heading-para'>
+          Probably at no previous moment in the world history have commerce and industry become so complex, extensive, and globally interrelated as they are today. India, which is going through a rapid growth in its manufacturing sector, is not unaffected by these changes.
+        </div>
+        <div
+          style={{
+            color: "#077B0A",
+            textDecorationLine: "underline",
+            fontSize: "18px",
+            cursor: "pointer",
+            marginTop: "1rem"
+          }} onClick={() => { navigate("/about") }}>
+          Read more
+        </div>
+        <News />
+        <Announce />
+        <Research /> */}
+        <div classname="features" style={{ textAlign: "center", color: "#001A38", letterSpacing: "3px" }}>
+          <h2> IIITDMJ Features</h2>
+          <h4 style={{ letterSpacing: "0px" }}> Take a deep insight </h4>
+          <Cards />
+        </div>
       </div>
-      <div className='heading-para'>
-      Probably at no previous moment in the world history have commerce and industry become so complex, extensive, and globally interrelated as they are today. India, which is going through a rapid growth in its manufacturing sector, is not unaffected by these changes.
-      </div>
-      <div
-        style={{
-          color:  "#077B0A",
-          textDecorationLine: "underline",
-          fontSize: "18px",
-          cursor: "pointer",
-          marginTop:"1rem"
-      }} onClick = {() => {navigate("/about")}}>
-        Read more
-      </div>
-      <News/>
-      <Announce/>
-      <Research/>
-      <div classname="features" style={{ textAlign: "center", color: "#001A38", letterSpacing: "3px"}}>
-      <h2> IIITDMJ Features</h2>
-      <h4 style={{letterSpacing: "0px"}}> Take a deep insight </h4>
-        <Cards/>
-      </div>
-    </div>
-    <Foot/>
+      <Foot />
     </div>
   )
 }
