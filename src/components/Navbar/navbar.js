@@ -33,11 +33,12 @@ const NavbarHeader = () => {
                         <Navbar.Brand onClick={() => { navigate("/") }} style={{
                             fontSize: "24px",
                             fontWeight: "600",
-                            cursor: "pointer"
+                            cursor: "pointer",
+                            color: "white",
                         }}>PDPM IIITDM Jabalpur</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     </div>
-                    <div>
+                    <div style={{color: "white"}}>
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto">
                                 <Nav.Link onClick={() => { navigate("/home") }} className="navbar-titles">Home</Nav.Link>

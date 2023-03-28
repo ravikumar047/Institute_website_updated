@@ -9,6 +9,7 @@ import News from '../newsandevents/news'
 import Cards from '../insights/cards'
 import "./home.css"
 import NavbarHeader from '../Navbar/navbar';
+import Boardofgoverners from '../administration/Boardofgoverners'
 const LandingPage = () => {
 
   const navigate = useNavigate()
@@ -49,6 +50,7 @@ const LandingPage = () => {
           <h4 style={{ letterSpacing: "0px" }}> Take a deep insight </h4>
           <Cards />
           <Gallery/>
+          <Boardofgoverners/>
         </div>
       </div>
       <Foot />
