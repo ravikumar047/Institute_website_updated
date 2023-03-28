@@ -7,7 +7,7 @@
     size: "100px";
 }
 
-.card:hover{
-    color: "#00000";
+.card-body:hover{
+    color: "#000000";
      
 }

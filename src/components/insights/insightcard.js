@@ -8,6 +8,7 @@ import { TbBulb , TbRocket, TbMicroscope} from 'react-icons/tb';
 import { VscCircuitBoard} from 'react-icons/vsc';
 import { IconContext } from "react-icons";
 import "./cards.css";
+import { hover } from '@testing-library/user-event/dist/hover';
 
 const Insightcard = (props) => {
   return (
