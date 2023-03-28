@@ -41,10 +41,10 @@ const NavbarHeader = () => {
                     <div style={{color: "white"}}>
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto">
-                                <Nav.Link onClick={() => { navigate("/home") }} className="navbar-titles">Home</Nav.Link>
-                                <Nav.Link onClick={() => { navigate("/about") }} className="navbar-titles">About</Nav.Link>
+                                <Nav.Link onClick={() => { navigate("/home") }} className="navbar-titles" >Home</Nav.Link>
+                                <Nav.Link onClick={() => { navigate("/about") }} className="navbar-titles" >About</Nav.Link>
                                 <div className='navbar-titles'>
-                                    <NavDropdown title="Academics" id="basic-nav-dropdown" className="navbar-titles" style={{ color: "black" }}>
+                                    <NavDropdown title="Academics" id="basic-nav-dropdown" className="navbar-titles" >
                                         <NavDropdown.Item href="#action/3.1">Academics</NavDropdown.Item>
                                         <NavDropdown.Item href="#action/3.2">
                                             Another action
@@ -56,7 +56,7 @@ const NavbarHeader = () => {
                                         </NavDropdown.Item>
                                     </NavDropdown>
                                 </div>
-                                <NavDropdown title="Admission" id="basic-nav-dropdown" className="navbar-titles" style={{ color: "black" }}>
+                                <NavDropdown title="Admission" id="basic-nav-dropdown" className="navbar-titles" >
                                     <NavDropdown.Item href="#action/3.1">Admission</NavDropdown.Item>
                                     <NavDropdown.Item href="#action/3.2">
                                         Another action
@@ -67,7 +67,7 @@ const NavbarHeader = () => {
                                         Separated link
                                     </NavDropdown.Item>
                                 </NavDropdown>
-                                <NavDropdown title="Community" id="basic-nav-dropdown" className="navbar-titles" style={{ color: "black" }}>
+                                <NavDropdown title="Community" id="basic-nav-dropdown" className="navbar-titles">
                                     <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                                     <NavDropdown.Item href="#action/3.2">
                                         Another action
